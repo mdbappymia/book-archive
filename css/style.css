@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+.card {
+  /* min-height: 120vh; */
+  background-color: rgb(42, 53, 63);
+  transition: 0.5s;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 10px 20px rgb(37, 37, 37);
+}
+.card-image {
+  padding: 5px;
+}
+.input-group {
+  width: 300px;
+}
